@@ -5,7 +5,7 @@
 #include <linux/device.h>    // Device creation in sysfs
 #include <linux/uaccess.h>   // copy_to_user, copy_from_user
 #include <linux/delay.h>     // msleep()
-#include "TCS34725_ioctl.h" // IOCTL command definitions and register macros
+#include "TCS34725_ioctl.h"  // IOCTL command definitions and register macros
 
 #define DEVICE_NAME "tcs34725"      // Name of the device node (/dev/tcs34725)
 #define CLASS_NAME  "tcs34725_class"// Name of the sysfs class (in /sys/class)
